@@ -25,10 +25,10 @@ def top_sort(graph: {str: [str]}, visited: {str}, path: str, order: str) -> str:
 
 # Can only be applied for DAG`s
 # Every tree has a topological order
+# Time complexity - O(E + V)
 if __name__ == '__main__':
     graph_adjacency_list = {
         'H': ['J', 'I'],  # start from H
-
         'A': ['D'],
         'B': ['D'],
         'C': ['A', 'B'],

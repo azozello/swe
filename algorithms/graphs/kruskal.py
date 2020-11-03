@@ -32,6 +32,7 @@ def solve(graph: {str: int}) -> int:
     return cost
 
 
+# Time complexity - O(E logV)
 if __name__ == '__main__':
     print('Kruskal`s algorithm')
 

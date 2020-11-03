@@ -42,6 +42,7 @@ def find_scc(count: int, adj_list: [[int]]) -> int:
     return scc_count
 
 
+# Time complexity - O(E + V)
 if __name__ == '__main__':
     node_count = 8
     adjacency_list = [

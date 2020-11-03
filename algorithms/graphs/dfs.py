@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 def recursive_dfs(graph: {int: [int]}, visited: {int: bool}, vertex: int, logic=lambda x: x):
     if visited.get(vertex) is not None:
         return
@@ -27,6 +30,28 @@ def find_connected_components(graph: {int: [int]}) -> {int: [int]}:
         if visited.get(vertex) is None:
             components[count] = []
             recursive_dfs(graph, visited, vertex, lambda x: components[count].append(x))
+            count += 1
+
+    return components
+
+
+def find_component_dfs(start: int, graph: {int: [int]}, visited: {int: bool}, logic=lambda x: x):
+    neighbours = [v for v in graph[start] if visited.get(v) is None]
+    for n in neighbours:
+        logic(start)
+        visited[n] = True
+        find_component_dfs(n, graph, visited, logic)
+
+
+def find_connected_components_iteratively(graph: {int: [int]}) -> {int: [int]}:
+    visited = {}
+    count = 0
+    components = defaultdict(list)
+
+    for vertex in graph:
+        if visited.get(vertex) is None:
+            visited[vertex] = True
+            find_component_dfs(vertex, graph, visited, lambda x: components[count].append(x))
             count += 1
 
     return components
@@ -80,6 +105,10 @@ if __name__ == '__main__':
     print(len(processed_iteratively))
 
     connected_components = find_connected_components(not_connected_graph_adjacency_list)
+    connected_components_it = find_connected_components_iteratively(not_connected_graph_adjacency_list)
 
     for k in connected_components.keys():
+        print(k, connected_components[k])
+
+    for k in connected_components_it.keys():
         print(k, connected_components[k])

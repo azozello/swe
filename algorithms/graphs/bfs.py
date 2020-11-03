@@ -82,9 +82,9 @@ if __name__ == '__main__':
     }
     visit_queue = queue.Queue()
     visited_vertices = {}
-    bfs(graph_adjacency_list, visit_queue, visited_vertices, 0, lambda x: print(x))
+    # bfs(graph_adjacency_list, visit_queue, visited_vertices, 0, lambda x: print(x))
 
-    # rows_count, cols_count = [5, 7]
+    rows_count, cols_count = [5, 7]
     maze_matrix = [
         ['S', '.', '.', '#', '.', '.', '.'],
         ['.', '#', '.', '.', '.', '#', '.'],
@@ -94,5 +94,5 @@ if __name__ == '__main__':
     ]
     #
     # print_maze(rows_count, cols_count, maze_matrix)
-    # print(find_path(rows_count, cols_count, maze_matrix, (0, 0)))
+    print(find_path(rows_count, cols_count, maze_matrix, (0, 0)))
     # print_maze(rows_count, cols_count, maze_matrix)

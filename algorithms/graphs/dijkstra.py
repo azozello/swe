@@ -1,3 +1,6 @@
+from queue import PriorityQueue
+
+
 def solve(graph_matrix: [[int]]) -> [int]:
     def get_next():
         closest = [i for i in range(SIZE) if i not in visited][0]
@@ -10,7 +13,7 @@ def solve(graph_matrix: [[int]]) -> [int]:
     visited = []
     path = ''
 
-    while len(visited) < 5:
+    while len(visited) < SIZE:
         current_node = get_next()
         path += chr(current_node + 65)
         visited.append(current_node)
@@ -21,6 +24,24 @@ def solve(graph_matrix: [[int]]) -> [int]:
 
     print(path)
     return unvisited
+
+
+def priority_queue_dijkstra(graph: [[int]], size: int, start):
+    path_costs = [pow(10, 5) for i in range(size)]
+
+    queue = PriorityQueue()
+    queue.put(start)
+
+    while not queue.empty():
+        cost, target = queue.get()
+        if cost < path_costs[target]:
+            path_costs[target] = cost
+
+            for n in graph[target]:
+                n_cost, n_index = n
+                queue.put([n_cost + cost, n_index])
+
+    return path_costs
 
 
 # Time complexity O(E * log(V)) or  O((E + V) log(V)) with binary heap implementation of priority queue.
@@ -52,7 +73,15 @@ if __name__ == '__main__':
         [-1, -1, -1, -1, 14, 24, 0, 16],  # 7
         [-1, 35, -1, -1, -1, -1, 16, 0],  # 8
     ]
+    graph_adj_list = [
+        [[4, 1], [1, 2]],
+        [[1, 3]],
+        [[2, 1], [5, 3]],
+        [[3, 4]],
+        []
+    ]
 
     SIZE = len(graph_1)
 
     print(solve(graph_1))
+    print(priority_queue_dijkstra(graph_adj_list, SIZE, [0, 0]))

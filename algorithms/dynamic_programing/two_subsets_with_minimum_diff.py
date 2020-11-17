@@ -38,6 +38,7 @@ def findMin(a, n):
 
     # Initialize difference
     # of two sums.
+
     diff = sys.maxsize
 
     # Find the largest j such that dp[n][j]

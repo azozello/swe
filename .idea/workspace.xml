@@ -25,15 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="833073fb-af88-4ff1-aeb9-34ff0b6ed394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2020_18_58_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_11_2020_18_58__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/2020/google.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/hard/binary_tree_cameras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/hard/game_24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/swe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/swe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/hard/largest_rectangle_in_histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/hard/maximal_rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/hard/sliding_window_maximum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/dynamic_programing/two_subsets_with_minimum_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/dynamic_programing/two_subsets_with_minimum_diff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
       <recent name="$PROJECT_DIR$/algorithms/games/balls/solutions.txt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.binary_tree_cameras">
+  <component name="RunManager" selected="Python.maximal_rectangle">
     <configuration name="binary_tree_cameras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="swe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,28 +96,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/hard/binary_tree_cameras.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="can_array_represent_bst" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="swe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/2020" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/2020/can_array_represent_bst.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sub_set_of_given_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="largest_rectangle_in_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="swe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/dynamic_programing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/hard" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/dynamic_programing/sub_set_of_given_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/hard/largest_rectangle_in_histogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="two_subsets_with_minimum_diff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maximal_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="swe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,12 +156,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/dynamic_programing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/hard" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/dynamic_programing/two_subsets_with_minimum_diff.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/hard/maximal_rectangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maximal_square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="swe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/2020/maximal_square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maximal_rectangle" />
+        <item itemvalue="Python.largest_rectangle_in_histogram" />
+        <item itemvalue="Python.maximal_square" />
         <item itemvalue="Python.binary_tree_cameras" />
         <item itemvalue="Python.google" />
-        <item itemvalue="Python.two_subsets_with_minimum_diff" />
-        <item itemvalue="Python.sub_set_of_given_sum" />
-        <item itemvalue="Python.can_array_represent_bst" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +232,9 @@
       <workItem from="1604248871958" duration="14132000" />
       <workItem from="1604345292981" duration="4960000" />
       <workItem from="1605569508201" duration="1139000" />
-      <workItem from="1605648649231" duration="4436000" />
+      <workItem from="1605648649231" duration="16489000" />
+      <workItem from="1605699195577" duration="94000" />
+      <workItem from="1605736091381" duration="6884000" />
     </task>
     <servers />
   </component>
@@ -257,46 +254,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom" timestamp="1605653081689">
+    <state width="2517" height="463" key="GridCell.Tab.0.bottom" timestamp="1605746201894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081689" />
-    <state width="2517" height="490" key="GridCell.Tab.0.center" timestamp="1605653081689">
+    <state width="2517" height="463" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605746201894" />
+    <state width="2517" height="463" key="GridCell.Tab.0.center" timestamp="1605746201894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081689" />
-    <state width="2517" height="490" key="GridCell.Tab.0.left" timestamp="1605653081689">
+    <state width="2517" height="463" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605746201894" />
+    <state width="2517" height="463" key="GridCell.Tab.0.left" timestamp="1605746201894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081689" />
-    <state width="2517" height="490" key="GridCell.Tab.0.right" timestamp="1605653081689">
+    <state width="2517" height="463" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605746201894" />
+    <state width="2517" height="463" key="GridCell.Tab.0.right" timestamp="1605746201894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081689" />
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1605653081690">
+    <state width="2517" height="463" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605746201894" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1605746019598">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081690" />
-    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1605653081690">
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605746019598" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1605746019598">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081690" />
-    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1605653081690">
+    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605746019598" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1605746019598">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081690" />
-    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1605653081690">
+    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605746019598" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1605746019598">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605653081690" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605746019598" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604426393417">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604426393417" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605650159852">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605739488285">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605650159852" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1605739488285" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,12 +373,14 @@
     <SUITE FILE_PATH="coverage/swe$common_math.coverage" NAME="common_math Coverage Results" MODIFIED="1597699267985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/swe$lru_cache_misses.coverage" NAME="lru_cache_misses Coverage Results" MODIFIED="1603223049458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/2020" />
     <SUITE FILE_PATH="coverage/swe$prims.coverage" NAME="prims Coverage Results" MODIFIED="1604258110462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/graphs" />
+    <SUITE FILE_PATH="coverage/swe$largest_rectangle_in_histogram.coverage" NAME="largest_rectangle_in_histogram Coverage Results" MODIFIED="1605745729930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/hard" />
     <SUITE FILE_PATH="coverage/swe$test.coverage" NAME="test Coverage Results" MODIFIED="1603627432519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/amazon" />
     <SUITE FILE_PATH="coverage/swe$group_people_to_group_size.coverage" NAME="group_people_to_group_size Coverage Results" MODIFIED="1598911680602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/medium" />
-    <SUITE FILE_PATH="coverage/swe$maximal_square.coverage" NAME="maximal_square Coverage Results" MODIFIED="1603212687746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/2020" />
+    <SUITE FILE_PATH="coverage/swe$maximal_square.coverage" NAME="maximal_square Coverage Results" MODIFIED="1605658290751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/2020" />
     <SUITE FILE_PATH="coverage/swe$sub_set_of_given_sum.coverage" NAME="sub_set_of_given_sum Coverage Results" MODIFIED="1604355596394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/dynamic_programing" />
     <SUITE FILE_PATH="coverage/swe$binary_tree_cameras.coverage" NAME="binary_tree_cameras Coverage Results" MODIFIED="1605653081680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/hard" />
     <SUITE FILE_PATH="coverage/swe$add_two_numbers.coverage" NAME="add_two_numbers Coverage Results" MODIFIED="1603570569574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/medium" />
+    <SUITE FILE_PATH="coverage/swe$maximal_rectangle.coverage" NAME="maximal_rectangle Coverage Results" MODIFIED="1605746201888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/hard" />
     <SUITE FILE_PATH="coverage/swe$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1598996980435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graphs" />
   </component>
 </project>

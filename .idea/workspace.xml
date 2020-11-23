@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="833073fb-af88-4ff1-aeb9-34ff0b6ed394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/hard/serialize_binary_tree.py" afterDir="false" />
+    <list default="true" id="833073fb-af88-4ff1-aeb9-34ff0b6ed394" name="Default Changelist" comment="Added serialization for binary serialization/deserialization problem.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/graphs/topological_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/graphs/topological_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/hard/serialize_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/hard/serialize_binary_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,8 +233,18 @@
       <workItem from="1605648649231" duration="16489000" />
       <workItem from="1605699195577" duration="94000" />
       <workItem from="1605736091381" duration="7766000" />
-      <workItem from="1605999175675" duration="2792000" />
+      <workItem from="1605999175675" duration="3526000" />
+      <workItem from="1606096469466" duration="357000" />
+      <workItem from="1606158598736" duration="7131000" />
     </task>
+    <task id="LOCAL-00001" summary="Added serialization for binary serialization/deserialization problem.">
+      <created>1606003475135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606003475135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,39 +262,47 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added serialization for binary serialization/deserialization problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added serialization for binary serialization/deserialization problem." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="463" key="GridCell.Tab.0.bottom" timestamp="1606003160640">
+    <state width="2517" height="414" key="GridCell.Tab.0.bottom" timestamp="1606170669359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="463" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606003160640" />
-    <state width="2517" height="463" key="GridCell.Tab.0.center" timestamp="1606003160640">
+    <state width="2517" height="414" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606170669359" />
+    <state width="2517" height="414" key="GridCell.Tab.0.center" timestamp="1606170669359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="463" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606003160640" />
-    <state width="2517" height="463" key="GridCell.Tab.0.left" timestamp="1606003160640">
+    <state width="2517" height="414" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606170669359" />
+    <state width="2517" height="414" key="GridCell.Tab.0.left" timestamp="1606170669359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="463" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606003160640" />
-    <state width="2517" height="463" key="GridCell.Tab.0.right" timestamp="1606003160640">
+    <state width="2517" height="414" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606170669359" />
+    <state width="2517" height="414" key="GridCell.Tab.0.right" timestamp="1606170669359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="463" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606003160640" />
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1606003064783">
+    <state width="2517" height="414" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606170669359" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1606169861303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606003064783" />
-    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1606003064783">
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606169861303" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1606169861302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606003064783" />
-    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1606003064783">
+    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606169861302" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1606169861302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606003064783" />
-    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1606003064783">
+    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606169861302" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1606169861302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606003064783" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606169861302" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1606003478936">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606003478936" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604426393417">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -356,7 +373,7 @@
     <SUITE FILE_PATH="coverage/swe$rat_in_a_haze.coverage" NAME="rat_in_a_haze Coverage Results" MODIFIED="1599080556195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/medium" />
     <SUITE FILE_PATH="coverage/swe$multiprocessor_system.coverage" NAME="multiprocessor_system Coverage Results" MODIFIED="1603119952316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/2020" />
     <SUITE FILE_PATH="coverage/swe$testing.coverage" NAME="testing Coverage Results" MODIFIED="1604186306066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/swe$serialize_binary_tree.coverage" NAME="serialize_binary_tree Coverage Results" MODIFIED="1606003160633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/hard" />
+    <SUITE FILE_PATH="coverage/swe$serialize_binary_tree.coverage" NAME="serialize_binary_tree Coverage Results" MODIFIED="1606170669353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/hard" />
     <SUITE FILE_PATH="coverage/swe$find_duplicates.coverage" NAME="find_duplicates Coverage Results" MODIFIED="1603570738044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/medium" />
     <SUITE FILE_PATH="coverage/swe$longest_increasing_subsequence.coverage" NAME="longest_increasing_subsequence Coverage Results" MODIFIED="1602448213724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/medium" />
     <SUITE FILE_PATH="coverage/swe$longest_common_subsequence.coverage" NAME="longest_common_subsequence Coverage Results" MODIFIED="1604271232860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms/dynamic_programing" />

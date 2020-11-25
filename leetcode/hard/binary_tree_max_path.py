@@ -99,7 +99,7 @@ def get_max_path(root: TreeNode) -> int:
 
     max_path = root.val
     pq = PriorityQueue()
-    bottom_up_dfs(root, lambda cost_node: pq.put(cost_node))
+    bottom_up_bfs(root, lambda cost_node: pq.put(cost_node))
 
     while not pq.empty():
         cn = pq.get()
@@ -112,7 +112,7 @@ def get_max_path(root: TreeNode) -> int:
     return max_path
 
 
-def bottom_up_dfs(root: TreeNode, logic=lambda x: print(x)):
+def bottom_up_bfs(root: TreeNode, logic=lambda x: print(x)):
     queue = Queue()
     tree_to_cost_map = {}
 
@@ -161,3 +161,15 @@ if __name__ == '__main__':
     start = generate_tree()
     result = get_max_path(start)
     print(result)
+
+#    Огромная куча дел, которую я на хую вертел:
+# 0) 10 Декабря - Собес в MS, ПОСЛЕДНИЙ шанс попасть в faang.
+# 1) До 1 Декабря - Съехать на новую хату.
+# 2) До 18 Декабря - Сделать 1 Issue в open source проекте в универ.
+# 3) До 16 Декабря - Сделать распредилённую файловую систему для консоли в универ.
+# 4) 3 Декабря - Набрать 50%+ на контрольной по семантике языков программирования.
+# 5) Декабрь - Додолбить чуваков и получить набор данных, после их обработать - Командный проект в универе.
+# 6) Работать не забывай!
+# 7) До 6 Декабря - Сделать бота в телегу
+# 8) Найти хату на НГ
+# 9) Ты там работаешь вообще?

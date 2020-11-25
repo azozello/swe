@@ -81,7 +81,7 @@ def count_numbers_linked_list(numbers: [int]) -> [int]:
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # BINARY SEARCHING TREE SOLUTION - STILL TO SLOW  # #
+# # BINARY SEARCHING TREE SOLUTION - STILL TOO SLOW # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 class BinarySearchingTree:
